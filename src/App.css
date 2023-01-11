@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Varela Round", sans-serif;
+  color: white;
+  background-color: #170d41;
+}
+
+:root {
+  --container-width-lg: 78%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+.title {
+  padding: 3rem 0;
+  text-align: center;
+}
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+  /* margin-top: 30px; */
+}
+
+/* Project CSS */
+.app-con {
+  background: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);
+  height: 100vh;
+}
+.title {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+@media screen and(max-width:600px) {
+  .app-con {
+    height: 100%;
+    padding-bottom: 2rem;
+  }
+}

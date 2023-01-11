@@ -1,0 +1,28 @@
+.image-container {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  background: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);
+  padding: 3rem 0;
+  text-align: center;
+}
+span {
+  color: #037fff;
+}
+h1 {
+  font-size: 1.9rem;
+}
+span.green {
+  color: rgb(9, 234, 163);
+}
+
+p {
+  width: 28rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.slide{
+    
+}
